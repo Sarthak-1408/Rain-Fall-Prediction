@@ -27,7 +27,7 @@ Demo Image :point_down:
   - ["https://www.kaggle.com/jsphyg/weather-dataset-rattle-package"](https://www.kaggle.com/jsphyg/weather-dataset-rattle-package)
   
   
- # Installation :desktop_computer:
+  # Installation :desktop_computer:
   - Python 3.8+
   - Streamlit==0.73.1
   - scikit-learn==0.24.1
@@ -44,3 +44,22 @@ Demo Image :point_down:
  ```
  pip install -r requirements.txt
 ```
+
+  # Setup :computer:
+ - First create a virtual environment by using this command:
+ - conda create -n myenv python=3.6
+ - Activate the environment using the below command:
+ - conda activate myenv
+ - Then install all the packages by using the following command
+ - pip install -r requirements.txt
+ - Now for the final step. Run the app
+ - python app.py
+
+  # Model Deployment
+ - Model is Deployed using Streamlit library at Heroku server :point_down:
+ 
+   https://rain-fall.herokuapp.com/
+   
+ ## If you have any query regarding this project then contact me on the handles given below
+ - **Linkdin** - https://www.linkedin.com/in/sarthak-sharma-5472aa1a0/
+ - **Gmail** - sarthakparashar1408@gmail.com
