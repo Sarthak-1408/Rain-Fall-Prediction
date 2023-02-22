@@ -17,7 +17,7 @@ Demo Image :point_down:
  
   - This Project is helps a lot of person who can check tomorrow's rain fall in Australia.
   - This project is tested over lot of ml models like xgboost, random forest, Gradient Boost Classifier, Decision Tree Classifier etc.. 
-  Out of these models RainForestClassifier and XGBoostClassifier Perform very well giving an Accuracy score around 89 % .
+  Out of these models RainForestClassifier and XGBoostClassifier Perform very well giving an Accuracy score around 91 % .
   - Here due to my system compatibility is very low. So I havent done hyperparameter tuning. But it is highly recommended to do it if possible.
   - This project is totally based on **Machine Learning** and with the help of **Streamlit** library i can Build a Frontend.
   
