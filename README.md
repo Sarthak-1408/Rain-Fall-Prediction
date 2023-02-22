@@ -58,7 +58,7 @@ Demo Image :point_down:
   # Model Deployment
  - Model is Deployed using Streamlit library at Heroku server :point_down:
  
-   https://rain-fall.herokuapp.com/
+   https://sarthak-1408-rain-fall-prediction-app-fz64o1.streamlit.app/
    
  ## If you have any query regarding this project then contact me on the handles given below
  - **Linkdin** - https://www.linkedin.com/in/sarthak-sharma-5472aa1a0/
