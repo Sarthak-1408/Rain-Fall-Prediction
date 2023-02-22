@@ -15,42 +15,42 @@ def load_model():
 model = load_model()
 
 # Create a MinTemp and MaxTemp option
-col1 , col2 = st.beta_columns(2)
+col1 , col2 = st.columns(2)
 MinTemp = float(col1.number_input("Minimum Temperature"))
 MaxTemp = float(col2.number_input("Maximum Temperature"))
 
 # Create a Rainfall and Evaporation option
-col3 , col4 = st.beta_columns(2)
+col3 , col4 = st.columns(2)
 Rainfall = float(col3.number_input("Rainfall"))
 Evaporation = float(col4.number_input("Evaporation"))
 
 # Create a Sunshine and windGustSpeed option
-col5 , col6 = st.beta_columns(2)
+col5 , col6 = st.columns(2)
 Sunshine = float(col5.number_input("Sunshine"))
 WindGustSpeed = col6.number_input("Wind Gust Speed")
 
 # Create a WindSpeed9am and WindSpeed3pm option
-col7 , col8 = st.beta_columns(2)
+col7 , col8 = st.columns(2)
 WindSpeed9am = float(col7.number_input("WindSpeed 9am"))
 WindSpeed3pm = col8.number_input("WindSpeed 3pm")
 
 # Create a humidity9am and humidity3pm option
-col9 , col10 = st.beta_columns(2)
+col9 , col10 = st.columns(2)
 Humidity9am = float(col9.number_input("Humidity 9am"))
 Humidity3pm = float(col10.number_input("Humidity 3pm"))
 
 # Create a Pressure9am and Pressure3pm option
-col11 , col12 = st.beta_columns(2)
+col11 , col12 = st.columns(2)
 Pressure9am = float(col11.number_input("Pressure 9am"))
 Pressure3pm = float(col12.number_input("Pressure 3pm"))
 
 # Create a Cloud9am and Cloud3pm option
-col13 , col14 = st.beta_columns(2)
+col13 , col14 = st.columns(2)
 Cloud9am = float(col13.number_input("Cloud 9am"))
 Cloud3pm = float(col14.number_input("Cloud 3pm"))
 
 # Create a RainToday and WindGustDir
-col15 , col16 = st.beta_columns(2)
+col15 , col16 = st.columns(2)
 RainToday = col15.selectbox("Rain Today" , ["Yes" , "No"])
 
 if RainToday == "Yes":
@@ -113,7 +113,7 @@ else:
     
 
 # Create a WindDir9am and WindDir3pm option
-col17 , col18 = st.beta_columns(2)
+col17 , col18 = st.columns(2)
 
 WindDir9am = col17.selectbox("Wind Direction 9am" , ['NNW','N','NW','NNE','WNW','W','WSW','SW',
                                                     'SSW', 'NE','S','SSE','ENE','SE','ESE','E'])
@@ -399,7 +399,7 @@ if st.button("Submit"):
 st.write("\n")
 st.title("Developer")
 
-col19 , col20 = st.beta_columns([1,2])
+col19 , col20 = st.columns([1,2])
 
 profile_image = Image.open("images/profile-pic.png")
 col19.image(profile_image , width = 190)
